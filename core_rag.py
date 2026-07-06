@@ -87,8 +87,8 @@ class RAGEngine:
         preserve semantic continuity across chunk boundaries.
     """
 
-    EMBEDDING_MODEL = "models/embedding-001"
-    LLM_MODEL = "gemini-1.5-flash"
+    EMBEDDING_MODEL = "models/gemini-embedding-001"
+    LLM_MODEL = "gemini-2.5-flash"
 
     SYSTEM_PROMPT = (
         "You are a precise, helpful academic assistant. Answer the user's "
